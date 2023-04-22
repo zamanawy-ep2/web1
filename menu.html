@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>One piece</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png"> -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="menu.css" />
+    <script
+      src="https://kit.fontawesome.com/e36dd4d155.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar">
+        <nav>
+          <ul id="navigation">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="index.html#testimonial">Testimonial</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li>
+              <a href="#menu">Menu <i class=""></i></a>
+              <ul class="submenu">
+                <li><a href="#menu">Cake</a></li>
+                <li><a href="#menu">Dessert</a></li>
+                <li><a href="#menu">Bakery</a></li>
+                <li><a href="#menu">Drinks</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="logo-img">
+          <a href="index.html">
+            <img src="img/logo.png" alt="" />
+          </a>
+        </div>
+
+        <div class="book_btn">
+          <a class="#" href="#">+7 777 299 51 31</a>
+        </div>
+      </div>
+    </header>
+
+    <button class="cart" id="cart">
+      <img class="cart__image" src="img/cart.png" style="width: 32px" />
+      <div class="cart__num" id="cart_num">0</div>
+    </button>
+
+    <p class="ykor"><a name="menu"></a></p>
+    <section class="menu">
+      <div class="section-header">
+        <h2>Our Menu</h2>
+        <h3>Check Our One piece Menu</h3>
+      </div>
+
+      <!-- <ul id="menus">
+        <li>
+          <h4><u>Cake</u></h4>
+        </li>
+        <li>
+          <h4>Dessert</h4>
+        </li>
+        <li>
+          <h4>Bakery</h4>
+        </li>
+        <li>
+          <h4>Drinks</h4>
+        </li>
+      </ul> -->
+
+      <div class="category">
+        <a class="link" style="--color: #d1eeff">
+          <i class="link-icon fa-solid fa-cake-candles"></i>
+          <span class="link-title">Cake</span>
+        </a>
+        <a class="link" style="--color: #1e2e77">
+          <i class="link-icon fa-solid fa-stroopwafel"></i>
+          <span class="link-title">Dessert</span>
+        </a>
+        <a class="link" style="--color: #bfaa8f">
+          <i class="link-icon fa-solid fa-bread-slice"></i>
+          <span class="link-title">Bakery</span>
+        </a>
+        <a class="link" style="--color: #d8d8d8">
+          <i class="link-icon fa-solid fa-mug-hot"></i>
+          <span class="link-title">Drinks</span>
+        </a>
+      </div>
+
+      <div class="menu-list">
+        <div class="card">
+          <a class="img card__image"
+            ><img
+              src="assets/img/menu/menu-item-1.JPG"
+              class="menu-img img-fluid"
+              alt=""
+          /></a>
+          <h4 class="card__title">Milkygirl</h4>
+          <p class="ingredients">
+            Airy cake made of thin cakes on condensed milk and white cream
+          </p>
+          <p class="price card__price">8388</p>
+          <div class="cool">
+            <button class="card__add">
+              <span>Buy</span>
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <a class="img card__image"
+            ><img
+              src="assets/img/menu/menu-item-2.JPG"
+              class="menu-img img-fluid"
+              alt=""
+          /></a>
+          <h4 class="card__title">Honey</h4>
+          <p class="ingredients">
+            Cake made of six honey cakes soaked in ice cream
+          </p>
+          <p class="price card__price">7388</p>
+          <div class="cool">
+            <button class="card__add">
+              <span>Buy</span>
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <a class="img card__image"
+            ><img
+              src="assets/img/menu/menu-item-3.JPG"
+              class="menu-img img-fluid"
+              alt=""
+          /></a>
+          <h4 class="card__title">Snickers</h4>
+          <p class="ingredients">
+            Cake is poured with caramel, chocolate icing and peanuts.
+          </p>
+          <p class="price card__price">6788</p>
+          <div class="cool">
+            <button class="card__add">
+              <span>Buy</span>
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <a class="img card__image"
+            ><img
+              src="assets/img/menu/menu-item-4.JPG"
+              class="menu-img img-fluid"
+              alt=""
+          /></a>
+          <h4 class="card__title">Tiramisu</h4>
+          <p class="ingredients">
+            Two delicate biscuits combined with butter cream and a light coffee
+            note
+          </p>
+          <p class="price card__price">9688</p>
+          <div class="cool">
+            <button class="card__add">
+              <span>Buy</span>
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <a class="img card__image"
+            ><img
+              src="assets/img/menu/menu-item-5.JPG"
+              class="menu-img img-fluid"
+              alt=""
+          /></a>
+          <h4 class="card__title">Napoleon</h4>
+          <p class="ingredients">
+            Made from many sheets of thin and crispy dough
+          </p>
+          <p class="price card__price">6588</p>
+          <div class="cool">
+            <button class="card__add">
+              <span>Buy</span>
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <a class="img card__image"
+            ><img
+              src="assets/img/menu/menu-item-6.JPG"
+              class="menu-img img-fluid"
+              alt=""
+          /></a>
+          <h4 class="card__title">Whoopie Pie</h4>
+          <p class="ingredients">
+            Three rich chocolate porous biscuits soaked in a delicate cream
+            cheese cream
+          </p>
+          <p class="price card__price">10988</p>
+          <div class="cool">
+            <button class="card__add">
+              <span>Buy</span>
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <a class="img card__image"
+            ><img
+              src="assets/img/menu/menu-item-7.JPG"
+              class="menu-img img-fluid"
+              alt=""
+          /></a>
+          <h4 class="card__title">Tart</h4>
+          <p class="ingredients">
+            Tart with nuts in honey-vanilla, autumn-style rich and tasty pastry
+          </p>
+          <p class="price card__price">1088</p>
+          <div class="cool">
+            <button class="card__add">
+              <span>Buy</span>
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <a class="img card__image"
+            ><img
+              src="assets/img/menu/menu-item-8.JPG"
+              class="menu-img img-fluid"
+              alt=""
+          /></a>
+          <h4 class="card__title">Shieli</h4>
+          <p class="ingredients">
+            It is a sweet, juicy dessert, with a rich chocolate biscuit and
+            fragrant coffee fiber
+          </p>
+          <p class="price card__price">1988</p>
+          <div class="cool">
+            <button class="card__add">
+              <span>Buy</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="popup">
+      <div class="popup__container" id="popup_container">
+        <div class="popup__item">
+          <h1 class="popup__title">Оформление заказа</h1>
+        </div>
+        <div class="popup__item" id="popup_product_list">
+          <div class="popup__product">
+            <div class="popup__product-wrap">
+              <img src="" class="popup__product-image" />
+              <h2 class="popup__product-title"></h2>
+            </div>
+            <div class="popup__product-wrap">
+              <div class="popup__product-price"></div>
+              <button class="popup__product-delete">✖</button>
+            </div>
+          </div>
+        </div>
+        <div class="popup__item">
+          <div class="popup__cost">
+            <h2 class="popup__cost-title">Итого</h2>
+            <output class="popup__cost-value" id="popup_cost"></output>
+          </div>
+        </div>
+        <button class="popup__product-buy">Buy</button>
+        <button class="popup__close" id="popup_close">✖</button>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
